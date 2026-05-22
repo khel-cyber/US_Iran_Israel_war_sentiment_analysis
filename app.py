@@ -353,14 +353,6 @@ with st.sidebar:
         "📋  Methodology & Summary",
     ], label_visibility="collapsed")
 
-    st.markdown('# Group 5')
-    st.markdown('Group members:')
-    st.markdown('Sheila Semenyo Ayertey -11334501')
-    st.markdown('Zanu Christopher-11179138')
-    st.markdown('Emmanuel Kofi Atta Aboagye- 11259266')
-    st.markdown('Kelvin Larbi Yeboah- 11169462')
-    st.markdown('Nyantakyi Bright Kofi- 11296261')
-
     st.markdown("<hr>", unsafe_allow_html=True)
     df_ss = st.session_state.get('df')
     if df_ss is not None:
